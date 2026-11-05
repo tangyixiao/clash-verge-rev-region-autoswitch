@@ -2,10 +2,33 @@
   "repo": "tangyixiao/clash-verge-rev-region-autoswitch",
   "sourceBranch": "main",
   "sourceCommit": "da7a2ee644df91d18049669b35b74ca185906ebe",
+  "designVersion": 3,
+  "direction": {
+    "visualConcept": "铜锈青、暗岩与航线橙的小型脚本航路图：一份真实 JavaScript 文件放在折叠航图中央，周围只有输入/决策/输出的源码阅读路径，不画全球节点性能图。事实边界：README 只重复仓库名，功能、启用流程和兼容范围未被充分说明，设计不能把地区切换名字扩展为已验证的自动能力。",
+    "layout": "technical",
+    "palette": {
+      "light": {
+        "bg": "#D7E3DD",
+        "surface": "#EDF0DF",
+        "ink": "#294137",
+        "muted": "#53685b",
+        "accent": "#416c59"
+      },
+      "dark": {
+        "bg": "#19271F",
+        "surface": "#2A3C2E",
+        "ink": "#ECF0DB",
+        "muted": "#acc0a3",
+        "accent": "#b0c99b"
+      }
+    },
+    "threeConcept": "Three.js 制作一张可折开的青铜色源码地图夹，中央夹着同名脚本文件页，周围三枚无地理含义的标记只对应阅读入口。没有源码依据不绘制具体国家和网络拓扑。",
+    "distinctiveInteraction": "点击脚本页显示来源链接与阅读边界，切换 LICENSE / NOTICE 显示其真实文本入口；不连接 Clash、不替用户切地区，也不显示虚构测速结果。"
+  },
   "media": [],
   "skills": [
     "baoyu-design",
     "design-taste-frontend"
   ],
-  "design": "content-first source/product/photography; no rejected template or faux 3D"
+  "flagshipModel": null
 }
